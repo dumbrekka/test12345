@@ -19,21 +19,32 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "Number1",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "jamie",
+				"name": "listOfPeople",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -44,6 +55,25 @@
 						"internalType": "string",
 						"name": "name",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameTofavNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -89,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"storage.sol": "SimpleStorage"
+			"storage.sol": "Storage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -104,11 +134,11 @@
 	},
 	"sources": {
 		"storage.sol": {
-			"keccak256": "0x81e6e7253afd9bf9d5b636722ad78a8ef5d4ebb11dfe6df52f0aa37a8f22006a",
+			"keccak256": "0xbcbaabdb512129c4faaed6f421bfb5aecea6836b506daf1048cfbd0d8cd94255",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a5cf369ff3b760d973caf1f5d8a9f1b2dfef802de74e6528805a595dd863ea04",
-				"dweb:/ipfs/QmcNrFpPC4WnN6UrSzxBTxeJ8CbbnGwB42QQWU1LFjz4G2"
+				"bzz-raw://719a47a4e662c686e5cc52c6b78e6767b0a87ece2e9bb24afb4dd4d21cc922fc",
+				"dweb:/ipfs/QmQ95WMPjnx5uDy3HRnyrtsP5D8GgWQebTV1aRSHeTutyr"
 			]
 		}
 	},
