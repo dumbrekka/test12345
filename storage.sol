@@ -6,6 +6,7 @@ pragma solidity 0.8.19;
 contract SimpleStorage {
 
     uint256 public Number = 0;
+    uint256 public Number1 = 0;
 
     struct Person {
     uint favNumber;
