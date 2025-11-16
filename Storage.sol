@@ -3,7 +3,7 @@ pragma solidity 0.8.19;
 
 
 
-contract Storage {
+contract SimpleStorage {
 
     uint256 public Number = 0;
 
